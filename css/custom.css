@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: 'Nunito', sans-serif!important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    font-family: 'Nunito', sans-serif!important;
+}
+
+
+/* Temporal */
+
+.navbar-toggler.collapsed {
+    display: none;
+}
+
+
+/**/
+
+.hero-content-left h1 {
+    margin-top: 50px;
+    text-align: left;
+    color: #023BBD;
+    font-weight: 800;
+    font-size: 44px;
+}
+
+.hero-content-left .lineSeparator {
+    width: 100%;
+    height: .5px;
+    background-color: #9F9F9F;
+    /*border: 1px solid #9F9F9F;*/
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+
+.lead {
+    text-align: left;
+    color: #545454;
+    font-weight: 600;
+    margin-top: -.6em;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.register .part-right #pRegister2 {
+    margin-top: -1em;
+    margin-bottom: 4em;
+}
+
+.hero-content-left h2 {
+    text-align: left;
+    color: #27C6FF!important;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.invite {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-content-left .action-btns a {
+    background-color: #27C6FF;
+    color: white;
+    border-radius: 50px;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.05em;
+}
+
+.video-app-wrap {
+    position: relative;
+    max-width: 100%;
+    right: 0%;
+    top: 0%;
+}
+
+#result {
+    color: lightgreen;
+    font-size: 1.1em;
+    padding-bottom: 1em;
+}
+
+.header nav.navbar {
+    padding: 16px 1rem;
+}
+
+nav.navbar.affix img {
+    content: url("../img/ic_logo_navbar@2x.png");
+    max-width: 16em;
+}
+
+.scroll-top.open {
+    display: none;
+}
+
+.btn {
+    font-family: 'Nunito', sans-serif!important;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-radius: 1.2em;
+    /*width:11em;*/
+}
+
+.btn-light {
+    font-size: .9em;
+    /*color: rgb(23, 197, 250)!important;*/
+    color: #1671F2;
+}
+
+.btn-primary {
+    font-size: .9em;
+}
+
+.color-secondary {
+    color: rgb(2, 59, 192)
+}
+
+
+/** Begin Navbar **/
+
+.navbar.affix {
+    background-color: rgb(2, 59, 192);
+}
+
+.navbar .container img {
+    width: 16em;
+}
+
+a.page-scroll.active {
+    color: rgba(255, 255, 255, 1)!important;
+    opacity: 1!important;
+}
+
+
+/** End Navbar **/
+
+
+/** Begin Section Hero **/
+
+.gradient-overlay:before {
+    background-image: linear-gradient(to left, rgba(29, 161, 243, 0.88), rgba(22, 113, 242, 0.82));
+}
+
+.hero-equal-height {
+    min-height: 805px!important;
+}
+
+
+/** End Section Hero **/
+
+
+/** Begin Section Register **/
+
+.register {
+    background-color: #023BBE;
+    min-height: 724px;
+}
+
+.register img {
+    margin-top: 167px;
+}
+
+.register .part-left {
+    margin-top: -3em;
+}
+
+.register .part-right {
+    margin-top: 8em;
+}
+
+.register .part-left h2 {
+    font-size: 45px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.register .part-left p {
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 1.2em;
+}
+
+.register .part-right h2 {
+    font-size: 34px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.register .part-right h3 {
+    /*margin-left: 1em;*/
+    margin-top: .55em;
+    font-size: 27px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.register .part-right form,
+.register .part-right .row {
+    text-align: center;
+    width: 100%;
+}
+
+
+/*.register input[type=text]:nth-of-type(1) {
+    padding-left: 1em;
+    margin-left: 10px;
+    width: 173px;
+    height: 52px;
+    border: 1px solid #AFAFAF;
+    border-radius: 5px;
+}
+
+.register input[type=text]:nth-of-type(2) {
+    padding-left: 1em;
+    margin-left: 10px;
+    width: 256px;
+    height: 52px;
+    border: 1px solid #AFAFAF;
+    border-radius: 5px;
+}*/
+
+.register input[type=text] {
+    padding-left: 1em;
+    margin-left: 10px;
+    /*width: 270px;*/
+    height: 52px;
+    border: 1px solid #AFAFAF;
+    border-radius: 5px;
+    max-width: 290px;
+}
+
+.align-items-center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+/*.register input[type=text]::placeholder {
+    color: #023BBE!important;
+    font-size: 18px;
+}*/
+
+.register input[type=text]::placeholder {
+    color: #023BBE!important;
+    font-size: 18px;
+}
+
+.register .lineRegister {
+    height: 0px;
+    width: 100%;
+    border-bottom-style: dashed;
+    border-bottom-color: #FFFFFF;
+    border-bottom-width: 2px;
+    opacity: 0.5;
+    margin-bottom: 2em;
+}
+
+.register .part-right p {
+    margin-top: 1em;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 1.2em;
+}
+
+.register .part-right .btn {
+    background-color: #FFFFFF;
+    width: 304px;
+    height: 54px;
+    border-radius: 24px;
+    color: #023BBE;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+
+/** End Section Register **/
+
+
+/** Begin Section Features **/
+
+#features h1 span {
+    color: rgb(2, 59, 192)!important;
+}
+
+#features h3 {
+    color: rgb(23, 197, 250);
+    font-weight: 700;
+}
+
+#features a.nav-link {
+    color: #c4c4c4;
+}
+
+#features a.nav-link.active {
+    color: rgb(29, 159, 243);
+    border-color: rgb(23, 197, 250);
+}
+
+#features span.p-1 {
+    color: rgb(23, 197, 250);
+}
+
+
+/** End Section Features **/
+
+
+/** Begin Section ScreenShots **/
+
+.screenshots-section {
+    background-color: rgb(240, 240, 240);
+}
+
+.screenshots-section .owl-item img {
+    border: .5px ridge rgba(100, 100, 100, .8);
+}
+
+
+/** End Section ScreenShots **/
+
+.dot-indicator.owl-theme button.owl-dot.active span {
+    background-color: rgb(2, 59, 192)!important;
+}
+
+.screenshots-section h2 {
+    color: rgb(2, 59, 192);
+}
+
+
+/** Begin Section Contact Us **/
+
+.contact-us-section .contact-us-form {
+    background-color: rgb(234, 234, 234);
+}
+
+.contact-us-section h4 {
+    color: rgb(23, 197, 250);
+}
+
+.contact-us-section .contact-us-content h2 {
+    color: rgb(23, 197, 250);
+    font-size: 1.8em;
+}
+
+.contact-us-section hr {
+    background-color: rgb(23, 197, 250);
+}
+
+
+/** End Section Contact Us **/
+
+
+/** Begin FAQ Section **/
+
+.faq-section h2 {
+    color: rgb(3, 57, 191)!important;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.faq-section .card span img {
+    position: absolute!important;
+    margin-top: -8px;
+}
+
+.faq-section h6 strong {
+    margin-left: 4em;
+}
+
+.faq-section .img-ark2 img {
+    margin-top: 3em;
+}
+
+
+/** End FAQ Section **/
+
+
+/** Begin PTB-100 Section **/
+
+.ptb-100 h2 {
+    color: rgb(0, 110, 252);
+    font-weight: 800;
+}
+
+
+/** End PTB-100 Section **/
+
+
+/** Begin FAQ2 Section **/
+
+.faq2-bottom {
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.faq2-section h2 {
+    color: rgb(0, 110, 252);
+    font-weight: 800;
+}
+
+.faq2-section h3 {
+    color: rgb(22, 113, 242);
+    margin-top: .5em;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.faq2-bottom img {
+    width: 100%;
+}
+
+.faq2-bottom .col-md-2 {}
+
+
+/** End FAQ2 Section **/
+
+
+/** Begin Section Footer **/
+
+.footer-section {
+    background-color: rgb(2, 59, 192);
+}
+
+.footer-section .color-2 {
+    color: rgb(2, 59, 192);
+}
+
+.footer-section .d-block img {
+    width: 16em;
+}
+
+.footer-section h2 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    font-weight: 800;
+    text-align: center;
+}
+
+.footer-section ul {
+    text-align: center;
+}
+
+#footer-left img {
+    width: 80px;
+}
+
+#footer-left h4 {
+    margin-top: 5px;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-family: 'Nunito', sans-serif!important;
+    font-weight: 700;
+}
+
+#footer-left h2 {
+    margin-top: -10px;
+    font-weight: 700;
+}
+
+#footer-left .btn {
+    font-size: 13px;
+    font-weight: 800;
+    color: #023BBE;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+
+/** End Section Footer **/
+
+@media (min-width: 320px) and (max-width: 992px) {
+    .navbar {
+        background-image: linear-gradient(to left, rgba(29, 161, 243, 1), rgba(22, 113, 242, 1)) !important;
+        padding: .85rem 1rem !important;
+    }
+    nav.navbar img {
+        content: url("../img/ic_logo_navbar@2x.png");
+        max-width: 16em;
+    }
+    .hero-content-left h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .hero-content-left h2 {
+        text-align: center;
+    }
+    .lead {
+        text-align: center;
+    }
+    .hero-content-left .action-btns a {
+        margin-left: calc(50% - 8em)!important;
+    }
+}
+
+@media only screen and (max-width: 484px) {
+    .register input[type=text]:nth-of-type(1) {
+        /*width: calc( 100% - 10px - 5em);*/
+        width: 5em;
+    }
+    .register input[type=text]:nth-of-type(2) {
+        /*margin-left: 2em;*/
+        margin-left: auto;
+        margin-right: auto;
+        /*width: calc(100% - 10px - 2em);*/
+        width: 12em;
+    }
+    .register input[type=text]::placeholder {
+        color: #023BBE!important;
+        font-size: 10px;
+    }
+    .register form {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .register .part-right .btn {
+        width: 90%;
+    }
+    .footer-nav-wrap .d-block {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .footer-nav-wrap img {
+        margin-top: 1em;
+        text-align: center!important;
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+}
